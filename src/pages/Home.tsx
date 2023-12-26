@@ -1,7 +1,5 @@
 import { Text, Box, Card, CardBody, Center, HStack, Heading } from "@chakra-ui/react";
 import ProfileCard from "../components/ProfileCard";
-import Sidebar from "../components/Sidebar";
-
 
 export default function Home() {
     return (

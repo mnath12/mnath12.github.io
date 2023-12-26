@@ -1,4 +1,4 @@
-import { Card, Text, CardHeader, Heading, CardBody, Center, Box, HStack, Button, Link } from "@chakra-ui/react";
+import { Card, Text, Heading, CardBody, Center, Box, HStack, Button, Link } from "@chakra-ui/react";
 import Sidebar from "../components/Sidebar";
 
 export default function Sudoku () {
