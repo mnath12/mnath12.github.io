@@ -1,17 +1,30 @@
 import './App.css'
 import NavBar from './components/NavBar'
-import {Outlet} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
+import Home from './pages/Home'
+import Research from './pages/Research'
+import Reversi from './pages/Reversi'
+import Sudoku from './pages/Sudoku'
 
 
 function App() {
 
   return (
     <>
+
    
     <NavBar></NavBar>
     
-    <Outlet/>
-     
+    <div className='container'>
+      <Routes>
+        <Route path = '/' element = {<Home/>}/>
+        <Route path = '/projects' element = {<Sudoku/>}/>
+        <Route path = '/projects/sudoku' element = {<Sudoku/>}/>
+        <Route path = '/projects/reversi' element = {<Reversi/>}/>
+        <Route path = '/research' element = {<Research/>}/>
+
+      </Routes> 
+    </div>    
      
     
     </>

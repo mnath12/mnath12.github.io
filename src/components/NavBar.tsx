@@ -29,7 +29,7 @@ function NavBar () {
             </Flex>
             <Flex pos = 'fixed' top = '1rem' right = '1rem' align='center'>
                 <Flex>
-                    <Link href = "/">
+                    <Link href = "/#">
                         <Button 
                          
                             variant = 'ghost'
@@ -39,7 +39,7 @@ function NavBar () {
                         </Button>
                     </Link>
 
-                    <Link href = '/projects'>
+                    <Link href = '/#/projects'>
                         <Button 
                       
                             variant = 'ghost'
@@ -49,7 +49,7 @@ function NavBar () {
                         </Button>
                     </Link>
 
-                    <Link href = '/research'>
+                    <Link href = '/#/research'>
                         <Button 
                       
                             variant = 'ghost'

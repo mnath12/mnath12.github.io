@@ -39,8 +39,8 @@ function Sidebar( {activeButton}: any) {
                     }}
                     aria-label="Size Toggle">
                 </IconButton>
-                <SidebarItem changeActiveButton = {changeActiveButton} to = '/projects/sudoku' navSize = {size} icon = {FiHome} title = "Sudoku" active = {activeButton == "sudoku"}/>
-                <SidebarItem changeActiveButton = {changeActiveButton} to = '/projects/reversi' navSize = {size} icon = {FiHome} title = "Reversi" active = {activeButton == "reversi"} />
+                <SidebarItem changeActiveButton = {changeActiveButton} to = '/#/projects/sudoku' navSize = {size} icon = {FiHome} title = "Sudoku" active = {activeButton == "sudoku"}/>
+                <SidebarItem changeActiveButton = {changeActiveButton} to = '/#/projects/reversi' navSize = {size} icon = {FiHome} title = "Reversi" active = {activeButton == "reversi"} />
 
             </Flex>
             
