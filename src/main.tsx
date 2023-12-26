@@ -4,12 +4,12 @@ import App from './App.tsx'
 import './index.css'
 import { ChakraProvider } from '@chakra-ui/react'
 import { HashRouter } from 'react-router-dom'
-import Home from './pages/Home.tsx'
+/*import Home from './pages/Home.tsx'
 import Sudoku from './pages/Sudoku.tsx'
 import Reversi from './pages/Reversi.tsx'
-import Research from './pages/Research.tsx'
+import Research from './pages/Research.tsx' 
 
-/*const router = createHashRouter([
+const router = createHashRouter([
     {
         path: "/",
         element: <App/>,
