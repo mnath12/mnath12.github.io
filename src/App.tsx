@@ -3,7 +3,7 @@ import NavBar from './components/NavBar'
 import {Route, Routes} from 'react-router-dom'
 import Home from './pages/Home'
 import Sudoku from './pages/Sudoku'
-import Research from './pages/Research'
+import Research from './pages/Research.tsx'
 import Reversi from './pages/Reversi'
 
 function App() {
