@@ -1,7 +1,4 @@
-import { Center, Text } from '@chakra-ui/react'
-import { Image } from '@chakra-ui/react'
-import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
-import LogoButton from './LogoButton';
+import { Card, CardBody, } from '@chakra-ui/react'
 
 
 const AboutCard = () => {

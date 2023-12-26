@@ -1,10 +1,10 @@
 import { Center, HStack, Text } from '@chakra-ui/react'
 import { Image } from '@chakra-ui/react'
-import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
+import { Card, CardBody } from '@chakra-ui/react'
 import { FaGithub, FaLinkedin} from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
-import {Icon, IconButton} from '@chakra-ui/react'
+import { IconButton} from '@chakra-ui/react'
 import LogoButton from './LogoButton';
 
 

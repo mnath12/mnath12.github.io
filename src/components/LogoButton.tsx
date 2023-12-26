@@ -1,6 +1,5 @@
-import { Icon, IconButton, Link } from '@chakra-ui/react'
-import { ReactNode } from 'react';
-import { FaGithub } from "react-icons/fa";
+import { Link } from '@chakra-ui/react'
+
 
 
 
