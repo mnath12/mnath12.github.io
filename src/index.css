@@ -12,6 +12,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#navBar{        
+  background-color: rgb(121, 125, 193) !important;
+}
+
 
 a {
   font-weight: 500;
@@ -60,7 +64,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: rgb(139, 93, 71);
   }
   button {
     background-color: #f9f9f9;
