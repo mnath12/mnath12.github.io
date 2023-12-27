@@ -27,7 +27,7 @@ export default function Sudoku () {
                             <Heading> Details </Heading> 
                         </Center>
                         <Text> I built a version of the classic game using React, Typescript, and Chakra UI.  </Text>
-                        <Link href = 'http://google.com'>
+                        <Link href = 'https://mnath12.github.io/Sudoku-Web/'>
                             <Button>PLAY</Button>
                         </Link>
                     </CardBody>
