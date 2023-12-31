@@ -26,8 +26,14 @@ export default function Reversi () {
             <Center>
                 <Heading> Details </Heading> 
             </Center>
-            <Text textAlign='left'> I improved my interactive UI design skills by making the game Reversi. My 2 player version features turns, hints, and a game over screen. While coding the game, I implemented C++ algorithms to calculate available moves based on player position and wrote classes representing
-player sprites, the board, and move hints. Because so many things can go wrong when designing a highly interactive game, I thoroughly unit tested all aspects of the game. </Text>
+            <Text textAlign='left'> 
+                    I improved my interactive UI design skills by making the game Reversi. 
+                    My 2 player version features turns, hints, and a game over screen. While 
+                    coding the game, I implemented C++ algorithms to calculate available
+                    moves based on player position and wrote classes representing player sprites, 
+                    the board, and move hints. Because so many things can go wrong when designing 
+                    a highly interactive game, I thoroughly unit tested all aspects of the game. 
+            </Text>
             <Link href = 'https://github.com/mnath12/Reversi'>
                 <Button>Code Here</Button>
             </Link>
