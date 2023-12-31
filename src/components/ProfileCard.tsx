@@ -15,7 +15,7 @@ const ProfileCard = () => {
             <Card>
                 <CardBody>
                     <Center>
-                        <Image src = '../src/profile.png'
+                        <Image src = '../#/src/profile.png'
                                alt = 'dummy profile pic'
                                borderRadius='full'/>
                     </Center>
