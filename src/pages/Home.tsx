@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <> 
         <Box  w = 'calc(100vw)' h = 'calc(88vh)' p={50}> 
-            <HStack>
+            <HStack spacing={10}>
                 <ProfileCard></ProfileCard> 
                 <Card w ='70vw'>
                     <CardBody>

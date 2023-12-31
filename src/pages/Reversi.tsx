@@ -8,7 +8,7 @@ export default function Reversi () {
 <HStack spacing = {20}>
 <Sidebar activeButton = "reversi"></Sidebar>
         
-        <Card minWidth='calc(20vw)'>
+        <Card minWidth='calc(15vw)'>
             <CardBody>
                 <Center>
                     <Heading> Reversi </Heading> 
@@ -21,7 +21,7 @@ export default function Reversi () {
      
     
 
-    <Card mr ={50}>
+    <Card mr ={75}>
         <CardBody>
             <Center>
                 <Heading> Details </Heading> 

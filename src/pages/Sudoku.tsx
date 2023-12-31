@@ -21,12 +21,18 @@ export default function Sudoku () {
                     </Card>
                 </Center>
 
-                <Card>
+                <Card mr = {75}>
                     <CardBody>
                         <Center>
                             <Heading> Details </Heading> 
                         </Center>
-                        <Text> I built a version of the classic game using React, Typescript, and Chakra UI.  </Text>
+                        <Text> 
+                            <p>I built a version of the classic game 
+                                using React, TypeScript, and Chakra UI. 
+                                The game will display the user's mistake 
+                                in real time. The website is coded with
+                                thousands of Sudoku games.  </p>
+                        </Text>
                         <Link href = 'https://mnath12.github.io/Sudoku-Web/'>
                             <Button>PLAY</Button>
                         </Link>
