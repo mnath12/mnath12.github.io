@@ -21,9 +21,9 @@ const ProfileCard = () => {
                     </Center>
                     
 
-                    <Text> Institution: Northwestern University <br></br>
-                        Degree(s): Computer Science (MS), Mathematics (BA) <br></br>
-                        Professional Interests: Machine Learning and AI, Quantitative Finance, Software Engineering
+                    <Text> <b>Institution</b>: Northwestern University <br></br>
+                        <b>Degrees</b>: Computer Science (MS), Mathematics (BA) <br></br>
+                        <b>Professional Interests:</b> Quantitative Finance, Machine Learning and AI, Software Engineering
                     </Text>
                     <Center>
                         <HStack>
