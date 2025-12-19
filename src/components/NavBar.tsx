@@ -58,6 +58,26 @@ function NavBar () {
                             Research
                         </Button>
                     </Link>
+
+                    <Link href = '/#/coursework'>
+                        <Button 
+                      
+                            variant = 'ghost'
+                            aria-label='coursework'
+                            w = '100%'>
+                            Coursework
+                        </Button>
+                    </Link>
+
+                    <Link href = '/#/experience'>
+                        <Button 
+                      
+                            variant = 'ghost'
+                            aria-label='experience'
+                            w = '100%'>
+                            Experience
+                        </Button>
+                    </Link>
                     
                 </Flex>
                 <Switch 
