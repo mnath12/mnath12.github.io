@@ -11,18 +11,12 @@ export default function Home() {
                     <CardBody>
                     <Center><Heading> About Me </Heading> </Center>
                     <Text textAlign='left'>
-                         <p> My name is Moinak and I'm a junior at Northwestern currently pursuing a BA/MS 
-                            in Math and Computer Science with a minor in Physics. 
-                            I'm interested in Machine Learning, AI, Software Engineering, and Algorithm Design. I am passionate about applying 
-                            mathematical theories towards practical ends, such as the use of linear algebra and linear
-                            regression in Machine Learning. I also greatly value intellectual puzzles, both in coding
+                         <p> My name is Moinak and I'm an aspiring quantitative researcher. I'm currently a Master's student in Financial Mathematics at The University of Chicago.
+                            I'm also interested in Machine Learning and Artificial Intelligence. I am passionate about applying 
+                            mathematical theories towards practical ends, such as the use of mathematical optimization techhniquesa in portfolio managemenrt, 
+                            and the use of calculus, linear algebra, and regression in Machine Learning. I also greatly value intellectual puzzles, both in coding
                             and otherwise. Finally, I value collaboration with other talented people. </p>  
-                         <br></br>
-                         <p>Over the past two years, I've worked for several physics research groups and 
-                            interned at Fermilab. At these research experiences, I had to independently learn 
-                            Python and various data science libraries like NumPy, SciPy, and MatPlotLib. As I
-                            learned more, I became more interested in Computer Science, which is why I pivoted 
-                            towards a Master's in Computer Science focused on Machine Learning and AI. </p>
+      
                     </Text>
                     </CardBody>
                 </Card>

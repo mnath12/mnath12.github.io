@@ -33,16 +33,21 @@ export default function Research() {
                 {
                     title: 'Volatility Smile Research - STAT 352-0',
                     bullets: [
-                        'Bullet point 1',
-                        'Bullet point 2',
-                        'Bullet point 3'
+                        'Empirical modeling of the implied volatility surface for AAPL call options, testing the Black–Scholes assumption of strike-invariant volatility and documenting a statistically significant volatility smile as a function of moneyness',
+                        'Nonparametric kernel regression with cross-validated bandwidth selection to estimate the volatility curve, achieving high explanatory power (R² ≈ 0.99) and accurately recovering the U-shaped structure centered near at-the-money options',
+                        'Model risk and specification analysis, comparing nonparametric, quadratic, and cubic models and showing that flexible estimators outperform low-degree parametric approximations in both fit quality and out-of-sample error', 
+                        'Semi-parametric volatility modeling combining a quadratic structural component with a nonparametric correction term, yielding lower cross-validation error while preserving interpretability aligned with options-pricing theory',
+                        'Production-style data pipeline for options research, including automated option chain ingestion, filtering for liquidity and arbitrage constraints, residual diagnostics, and model validation on noisy real-market derivatives data'
                     ]
                 },
                 {
                     title: 'Bitcoin RL',
                     bullets: [
-                        'Bullet point 1',
-                        'Bullet point 2'
+                        'Stochastic modeling of blockchain security attacks by formulating an adversarial reset strategy as a Markov Decision Process, with block arrivals modeled as competing Poisson processes representing honest and adversarial mining',
+                        'Reduction of adversarial dynamics to a biased random walk / Gambler’s Ruin problem, yielding closed-form expressions for violation probabilities and expected time to safety failure under structured reset policies',
+                        'Derivation of provably successful attack strategies, showing finite expected time to consensus violation using renewal theory and Wald’s equation, with guarantees under adversarial hash-power assumptions',
+                        'Optimal policy discovery via reinforcement learning, using Q-learning on a reduced state space to minimize expected time to violation and empirically validating optimal reset regions for different confirmation depths k ',
+                        'Simulation-based validation of Byzantine consensus behavior, including full Algorand protocol simulations under adversarial voting, confirming agreement and termination properties while stress-testing protocol robustness '
                     ]
                 }
             ],
@@ -144,13 +149,13 @@ export default function Research() {
                             {currentResearch.sections && currentResearch.sections.length > 0 && (
                                 <VStack spacing={6} align="stretch">
                                     {currentResearch.sections.map((section, sectionIndex) => (
-                                        <Box key={sectionIndex}>
+                                        <Box key={sectionIndex} textAlign="left">
                                             <Heading size="sm" mb={3} color={textColor}>
                                                 {section.title}
                                             </Heading>
                                             <List spacing={2}>
                                                 {section.bullets.map((bullet, bulletIndex) => (
-                                                    <ListItem key={bulletIndex} fontSize="md" color={textColor}>
+                                                    <ListItem key={bulletIndex} fontSize="md" color={textColor} textAlign="left">
                                                         <ListIcon as={MdCheckCircle} color={
                                                             activeSection === 'academic' ? 'blue.500' :
                                                             activeSection === 'fermilab' ? 'green.500' : 'purple.500'

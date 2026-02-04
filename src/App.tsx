@@ -19,7 +19,7 @@ function App() {
    
     <NavBar></NavBar>
     
-    <div className='container'>
+    <div className='container' style={{ paddingTop: '120px' }}>
       <Routes>
         <Route path = '/' element = {<Home/>}/>
         <Route path = '/projects' element = {<Sudoku/>}/>
