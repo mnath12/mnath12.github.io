@@ -16,7 +16,7 @@ import {
   Button,
   Link
 } from '@chakra-ui/react'
-import { FaGraduationCap, FaCode, FaChartLine, FaDatabase, FaRobot } from 'react-icons/fa'
+import { FaGraduationCap, FaCode, FaChartLine, FaRobot } from 'react-icons/fa'
 import { useState } from 'react'
 
 const Coursework = () => {
@@ -283,7 +283,7 @@ const Coursework = () => {
     }
   }
 
-  const FlipCard = ({ course, index }: { course: any, index: number }) => {
+  const FlipCard = ({ course }: { course: any }) => {
     const [isFlipped, setIsFlipped] = useState(false)
     
     return (
@@ -293,9 +293,9 @@ const Coursework = () => {
         height="300px"
         cursor="pointer"
         onClick={() => setIsFlipped(!isFlipped)}
-        perspective="1000px"
         style={{
-          transformStyle: 'preserve-3d'
+          transformStyle: 'preserve-3d',
+          perspective: '1000px'
         }}
       >
         <Box
@@ -560,7 +560,7 @@ const Coursework = () => {
           <SimpleGrid columns={{ base: 1, md: 2, lg: 2 }} spacing={6}>
             {mathPhysicsCourses.map((course, index) => (
               (course.code === "MATH 311-2,3" || course.code === "MATH 366-0") ? (
-                <FlipCard key={index} course={course} index={index} />
+                <FlipCard key={index} course={course} />
               ) : (
                 <CourseCard key={index} course={course} index={index} />
               )

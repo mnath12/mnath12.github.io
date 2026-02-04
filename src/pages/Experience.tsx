@@ -14,7 +14,7 @@ import {
 } from '@chakra-ui/react'
 import { useState } from 'react'
 import ExperienceSidebar from '../components/ExperienceSidebar'
-import { FaBriefcase, FaCode, FaChartLine } from 'react-icons/fa'
+import { FaBriefcase, FaChartLine } from 'react-icons/fa'
 import { MdCheckCircle } from 'react-icons/md'
 import { Icon } from '@chakra-ui/react'
 

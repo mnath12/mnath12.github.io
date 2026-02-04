@@ -1,7 +1,7 @@
 import { Flex, IconButton, Box, Icon, Text } from "@chakra-ui/react";
 import { useState } from "react";
 import { FiMenu } from "react-icons/fi";
-import { FaBriefcase, FaBuilding, FaCode, FaGraduationCap } from "react-icons/fa";
+import { FaBriefcase, FaGraduationCap } from "react-icons/fa";
 
 function ExperienceSidebar({ activeSection, onSectionChange }: { activeSection: string, onSectionChange: (section: string) => void }) {
     const [size, changeSize] = useState('large')
